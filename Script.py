@@ -65,21 +65,33 @@ Hey {}, Welcome! 👋
 ├⋟ 📊 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ: <code>{}</code>
 <b>╰──────────────────────⍟</b>"""
 
-    STATUS_TXT = """<b>╭─[ ⚡ ᴅᴀᴛᴀʙᴀsᴇ ꜱᴛᴀᴛᴜꜱ ⚡ ]─⍟</b>
-│
-<b>├─[ ᴅᴀᴛᴀʙᴀsᴇ ]─⍟</b>
-├⋟ 👤 ᴜsᴇʀs ⋟ <code>{}</code>
-├⋟ 👥 ɢʀᴏᴜᴘs ⋟ <code>{}</code>
-├⋟ 💎 ᴘʀᴇᴍɪᴜᴍ ⋟ <code>{}</code>
-├⋟ 📂 ꜰɪʟᴇs ⋟ <code>{}</code>
-├⋟ 💾 ᴜsᴇᴅ ⋟ <code>{}</code>
-├⋟ 🆓 ꜰʀᴇᴇ ⋟ <code>{}</code>
-│
-<b>├─[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs ]─⍟</b>
-├⋟ ⏳ ᴜᴘᴛɪᴍᴇ ⋟ {}
-├⋟ ⚡ ʀᴀᴍ ⋟ <code>{}%</code>
-├⋟ 🔋 ᴄᴘᴜ ⋟ <code>{}%</code>
-<b>╰──────────────────────⍟</b>"""
+    STATUS_TXT = """<b>
+👑⚔️  C I N E M A   H U B   •   R O Y A L   M A F I A  ⚔️👑
+
+━━━━━━━━━━━━━━━━━━━
+🩸 𝙀𝙈𝙋𝙄𝙍𝙀  𝙎𝙏𝘼𝙏𝙎
+━━━━━━━━━━━━━━━━━━━
+
+👥 USERS        ➤ <code>{}</code>  
+🏴 GROUPS       ➤ <code>{}</code>  
+💎 PREMIUM      ➤ <code>{}</code>  
+🎬 FILES        ➤ <code>{}</code>  
+
+━━━━━━━━━━━━━━━━━━━
+🕶 𝘿𝙊𝙉  𝘾𝙊𝙉𝙏𝙍𝙊𝙇
+━━━━━━━━━━━━━━━━━━━
+
+⏳ UPTIME       ➤ {}  
+🧠 RAM USAGE    ➤ <code>{}%</code>  
+⚙️ CPU POWER    ➤ <code>{}%</code>  
+
+━━━━━━━━━━━━━━━━━━━
+♛ STATUS        ➤ UNSTOPPABLE  
+♛ SPEED         ➤ KING LEVEL  
+♛ SECURITY      ➤ BULLETPROOF  
+
+— 🩸 𝘾𝙄𝙉𝙀𝙈𝘼  𝙃𝙐𝘽  🩸
+</b>"""
 
     EARN_INFO = """<b>💰 <u>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴛʜɪꜱ ʙᴏᴛ</u> 💰
 
