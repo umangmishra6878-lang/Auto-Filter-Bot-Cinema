@@ -5,15 +5,13 @@ class script(object):
     "<b>🔱 JAI SHREE MAHAKAAL 🔱</b>\n\n"
     "Hey {}, Welcome! 👋\n\n"
     "🎬 <u>CINEMA HUB PRO</u>\n"
-    "— Your Ultimate Movie Search Bot\n\n"
+    "Your Ultimate Movie Search Bot\n\n"
     "🍿 Movies • Series • Web Shows • Anime\n"
     "⚡ Fast • Clean • Powerful Results\n\n"
     "🔍 <i>Bas Movie / Series ka naam bhejo</i>\n"
     "Aur baaki sab mujh par chhod do 😉\n\n"
-    "────────────────────────\n"
     "💎 Powered by CINEMA HUB\n"
-    "👑 Developer : UMANG MISHRA\n"
-    "────────────────────────"
+    "👑 Developer : UMANG MISHRA"
 )
 
     FEATURES_TXT = (
