@@ -1,11 +1,20 @@
 class script(object):
-    START_TXT = """<b>👋 ʜᴇʟʟᴏ {},
+ START_TXT = """<b>🔱 JAI SHREE MAHAKAAL 🔱
 
-ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ.
+Hey {}, Welcome! 👋
 
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ, ꜱᴇʀɪᴇꜱ, ᴀɴɪᴍᴇꜱ, ᴀɴᴅ ᴍᴜᴄʜ ᴍᴏʀᴇ... 🎬
+🎬 <u>CINEMA HUB PRO</u> – Your Ultimate Movie Search Bot
 
-ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ʏᴏᴜ ᴡᴀɴᴛ. 🔍</b>"""
+🍿 Movies • Series • Web Shows • Anime  
+⚡ Fast • Clean • Powerful Results
+
+🔎 <i>बस Movie / Series का नाम भेजो</i>  
+और बाकी सब मुझ पर छोड़ दो 😉
+━━━━━━━━━━━━━━━━━━
+💎 Powered by CINEMA HUB
+👑 Developer : UMANG MISHRA
+━━━━━━━━━━━━━━━━━━
+</b>"""
 
     FEATURES_TXT = """<b>🛠️ ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴇᴀᴛᴜʀᴇꜱ 🛠️</b>"""
 
