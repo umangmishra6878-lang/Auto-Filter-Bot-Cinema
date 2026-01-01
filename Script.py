@@ -4,19 +4,18 @@ class script(object):
 
     FEATURES_TXT = "<b>🛠 HERE ARE MY AVAILABLE FEATURES 🛠</b>\n\n• Auto Filter Movies 🎬\n• Super Fast Search ⚡\n• Clean UI 😎\n• Premium Plans 💎\n• Admin Broadcast 📢\n• Group Support 👥"
 
-    ABOUT_TXT = """<b>╭──〔 🤖 BOT INFORMATION 〕──╮
-│
-├ 🤖 MY NAME : <a href="https://t.me/{}">{}</a>
-├ 👑 OWNER  : <a href="https://t.me/UmangMishra">UMANG MISHRA</a>
-├ 🧑‍💻 DEVELOPER : UMANG MISHRA
-├ ☁️ HOSTING : RENDER / KOYEB
-├ 📚 LIBRARY : PYROGRAM
-├ 🐍 LANGUAGE : PYTHON 3
-├ 🗄 DATABASE : MONGO DB
-├ 🚀 VERSION : V4.3 [ STABLE ]
-│
-╰──〔 🔱 JAI SHREE MAHAKAAL 🔱 〕──╯</b>"""
-
+    ABOUT_TXT = (
+    "<b>╭─〔 🤖 BOT INFORMATION 〕─╮</b>\n"
+    "┣ 🤖 MY NAME : <a href=\"https://t.me/{}\">{}</a>\n"
+    "┣ 👑 OWNER : <a href=\"https://t.me/UmangMishra\">UMANG MISHRA</a>\n"
+    "┣ 🧑‍💻 DEVELOPER : UMANG MISHRA\n"
+    "┣ ☁️ HOSTING : RENDER / KOYEB\n"
+    "┣ 📚 LIBRARY : PYROGRAM\n"
+    "┣ 🐍 LANGUAGE : PYTHON 3\n"
+    "┣ 🗄 DATABASE : MONGO DB\n"
+    "╰──────────────────────╯\n\n"
+    "🔱 <b>JAI SHRI MAHAKAAL</b> 🔱"
+)
     FORCESUB_TEXT = """<b>⚠️ ᴀᴄᴄᴇꜱꜱ ᴅᴇɴɪᴇᴅ ⚠️
 
 ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ʙᴏᴛ.
