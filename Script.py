@@ -1,38 +1,10 @@
 class script(object):
 
-    START_TXT = (
-        "<b>🔱 JAI SHREE MAHAKAAL 🔱</b>\n\n"
-        "Hey {}, Welcome! 👋\n\n"
-        "🎬 <u>CINEMA HUB PRO</u>\n"
-        "— Your Ultimate Movie Search Bot\n\n"
-        "🍿 Movies • Series • Web Shows • Anime\n"
-        "⚡ Fast • Clean • Powerful Results\n\n"
-        "🔍 <i>Bas Movie / Series ka naam bhejo</i>\n"
-        "Aur baaki sab mujh par chhod do 😉\n\n"
-        "────────────────────\n"
-        "💎 Powered by CINEMA HUB\n"
-        "👑 Developer : UMANG MISHRA\n"
-        "────────────────────"
-    )
+    START_TXT = "<b>🔱 JAI SHREE MAHAKAAL 🔱</b>\n\nHey {}, Welcome! 👋\n\n🎬 <u>CINEMA HUB PRO</u>\n— Your Ultimate Movie Search Bot\n\n🍿 Movies • Series • Web Shows • Anime\n⚡ Fast • Clean • Powerful Results\n\n🔍 <i>Bas Movie / Series ka naam bhejo</i>\nAur baaki sab mujh par chhod do 😉\n\n────────────────────\n💎 Powered by CINEMA HUB\n👑 Developer : UMANG MISHRA\n────────────────────"
 
-    FEATURES_TXT = (
-        "<b>🛠 HERE ARE MY AVAILABLE FEATURES 🛠</b>\n\n"
-        "• Auto Filter Movies 🎬\n"
-        "• Super Fast Search ⚡\n"
-        "• Clean UI 😎\n"
-        "• Premium Plans 💎\n"
-        "• Admin Broadcast 📢\n"
-        "• Group Support 👥"
-    )
+    FEATURES_TXT = "<b>🛠 HERE ARE MY AVAILABLE FEATURES 🛠</b>\n\n• Auto Filter Movies 🎬\n• Super Fast Search ⚡\n• Clean UI 😎\n• Premium Plans 💎\n• Admin Broadcast 📢\n• Group Support 👥"
 
-    ABOUT_TXT = (
-        "<b>🤖 BOT INFORMATION</b>\n\n"
-        "👑 OWNER      : UMANG MISHRA\n"
-        "🧑‍💻 DEVELOPER : UMANG MISHRA\n"
-        "☁️ HOSTING    : RENDER / KOYEB\n"
-        "📚 LIBRARY    : PYROGRAM\n"
-        "🐍 LANGUAGE   : PYTHON 3"
-    )
+    ABOUT_TXT = "<b>🤖 BOT INFORMATION</b>\n\n👑 OWNER : UMANG MISHRA\n🧑‍💻 DEVELOPER : UMANG MISHRA\n☁️ HOSTING : RENDER / KOYEB\n📚 LIBRARY : PYROGRAM\n🐍 LANGUAGE : PYTHON 3"
     ABOUT_TXT = """<b>╭──〔 🤖 BOT INFORMATION 〕──╮
 │
 ├ 🤖 MY NAME : <a href="https://t.me/{}">{}</a>
