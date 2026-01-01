@@ -4,7 +4,6 @@ class script(object):
 
     FEATURES_TXT = "<b>🛠 HERE ARE MY AVAILABLE FEATURES 🛠</b>\n\n• Auto Filter Movies 🎬\n• Super Fast Search ⚡\n• Clean UI 😎\n• Premium Plans 💎\n• Admin Broadcast 📢\n• Group Support 👥"
 
-    ABOUT_TXT = "<b>🤖 BOT INFORMATION</b>\n\n👑 OWNER : UMANG MISHRA\n🧑‍💻 DEVELOPER : UMANG MISHRA\n☁️ HOSTING : RENDER / KOYEB\n📚 LIBRARY : PYROGRAM\n🐍 LANGUAGE : PYTHON 3"
     ABOUT_TXT = """<b>╭──〔 🤖 BOT INFORMATION 〕──╮
 │
 ├ 🤖 MY NAME : <a href="https://t.me/{}">{}</a>
