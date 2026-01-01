@@ -1,23 +1,43 @@
 class script(object):
- START_TXT = """<b>🔱 JAI SHREE MAHAKAAL 🔱
+
+    START_TXT = """<b>🔱 JAI SHREE MAHAKAAL 🔱
 
 Hey {}, Welcome! 👋
 
-🎬 <u>CINEMA HUB PRO</u> – Your Ultimate Movie Search Bot
+🎬 <u>CINEMA HUB PRO</u>
+— Your Ultimate Movie Search Bot
 
-🍿 Movies • Series • Web Shows • Anime  
+🍿 Movies • Series • Web Shows • Anime
 ⚡ Fast • Clean • Powerful Results
 
-🔎 <i>बस Movie / Series का नाम भेजो</i>  
-और बाकी सब मुझ पर छोड़ दो 😉
-━━━━━━━━━━━━━━━━━━
+🔍 <i>Bas Movie / Series ka naam bhejo</i>
+Aur baaki sab mujh par chhod do 😉
+
+────────────────────
 💎 Powered by CINEMA HUB
 👑 Developer : UMANG MISHRA
-━━━━━━━━━━━━━━━━━━
+────────────────────
 </b>"""
 
-    FEATURES_TXT = """<b>🛠️ ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴇᴀᴛᴜʀᴇꜱ 🛠️</b>"""
+    FEATURES_TXT = """<b>🛠 HERE ARE MY AVAILABLE FEATURES 🛠</b>
 
+• Auto Filter Movies 🎬
+• Super Fast Search ⚡
+• Clean UI 😎
+• Premium Plans 💎
+• Admin Broadcast 📢
+• Group Support 👥
+"""
+
+    ABOUT_TXT = """<b>
+🤖 BOT INFORMATION
+
+👑 OWNER      : UMANG MISHRA
+🧑‍💻 DEVELOPER  : UMANG MISHRA
+☁️ HOSTING    : RENDER / KOYEB
+📚 LIBRARY    : PYROGRAM
+🐍 LANGUAGE   : PYTHON 3
+</b>"""
     ABOUT_TXT = """<b>╭──〔 🤖 BOT INFORMATION 〕──╮
 │
 ├ 🤖 MY NAME : <a href="https://t.me/{}">{}</a>
