@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class script(object):
 
     START_TXT = "<b>🔱 JAI SHREE MAHAKAAL 🔱</b>\n\nHey {}, Welcome! 👋\n\n🎬 <u>CINEMA HUB PRO</u>\n— Your Ultimate Movie Search Bot\n\n🍿 Movies • Series • Web Shows • Anime\n⚡ Fast • Clean • Powerful Results\n\n🔍 <i>Bas Movie / Series ka naam bhejo</i>\nAur baaki sab mujh par chhod do 😉\n\n────────────────────\n💎 Powered by CINEMA HUB\n👑 Developer : UMANG MISHRA\n────────────────────"
