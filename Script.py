@@ -1,40 +1,40 @@
-# -*- coding: utf-8 -*-
 class script(object):
+    START_TXT = """<b>
+🔱 JAI SHREE MAHAKAAL 🔱
 
-    START_TXT = (
-    "<b>🔱 JAI SHREE MAHAKAAL 🔱</b>\n\n"
-    "Hey {}, Welcome! 👋\n\n"
-    "🎬 <u>CINEMA HUB PRO</u>\n"
-    "Your Ultimate Movie Search Bot\n\n"
-    "🍿 Movies • Series • Web Shows • Anime\n"
-    "⚡ Fast • Clean • Powerful Results\n\n"
-    "🔍 <i>Bas Movie / Series ka naam bhejo</i>\n"
-    "Aur baaki sab mujh par chhod do 😉\n\n"
-    "💎 Powered by CINEMA HUB\n"
-    "👑 Developer : UMANG MISHRA"
-)
+👋 HELLO {},
 
-    FEATURES_TXT = (
-    "<b>🛠 HERE ARE MY AVAILABLE FEATURES 🛠</b>\n\n"
-    "• Auto Filter Movies 🎬\n"
-    "• Super Fast Search ⚡\n"
-    "• Clean UI 😎\n"
-    "• Premium Plans 💎\n"
-    "• Admin Broadcast 📢\n"
-    "• Group Support 👥"
-)
-    ABOUT_TXT = (
-    "<b>╭─〔 🤖 BOT INFORMATION 〕─╮</b>\n"
-    "┣ 🤖 MY NAME : <a href=\"https://t.me/{}\">{}</a>\n"
-    "┣ 👑 OWNER : <a href=\"https://t.me/UmangMishra\">UMANG MISHRA</a>\n"
-    "┣ 🧑‍💻 DEVELOPER : UMANG MISHRA\n"
-    "┣ ☁️ HOSTING : RENDER / KOYEB\n"
-    "┣ 📚 LIBRARY : PYROGRAM\n"
-    "┣ 🐍 LANGUAGE : PYTHON 3\n"
-    "┣ 🗄 DATABASE : MONGO DB\n"
-    "╰──────────────────────╯\n\n"
-    "🔱 <b>JAI SHRI MAHAKAAL</b> 🔱"
-)
+🎬 I AM AN ADVANCED AUTO FILTER BOT.
+
+📽️ I CAN PROVIDE MOVIES, SERIES, ANIMES AND MUCH MORE...
+
+🔍 JUST SEND ME THE NAME OF THE MOVIE / SERIES YOU WANT.
+</b>"""
+
+    FEATURES_TXT = """<b>🛠️ ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴇᴀᴛᴜʀᴇꜱ 🛠️</b>"""
+
+    ABOUT_TXT = """<b>
+🎬 C I N E M A H U B  P R O
+━━━━━━━━━━━━━━━━━━━
+
+🤖 BOT TYPE : Auto Filter System
+⚡ PERFORMANCE : High Speed
+🌍 HOSTING : Koyeb Cloud
+
+👑 OWNER : Umang Mishra
+👨‍💻 DEVELOPER : Umang Mishra
+
+🧠 TECHNOLOGY STACK
+• Python 3
+• Pyrogram
+• MongoDB
+• Koyeb Infrastructure
+
+🚀 BUILD : v4.3 | Stable
+━━━━━━━━━━━━━━━━━━━
+✨ Powered by Cinema Hub ✨
+</b>"""
+
     FORCESUB_TEXT = """<b>⚠️ ᴀᴄᴄᴇꜱꜱ ᴅᴇɴɪᴇᴅ ⚠️
 
 ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ʙᴏᴛ.
@@ -69,33 +69,21 @@ class script(object):
 ├⋟ 📊 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ: <code>{}</code>
 <b>╰──────────────────────⍟</b>"""
 
-    STATUS_TXT = """<b>
-👑⚔️  C I N E M A   H U B   •   R O Y A L   M A F I A  ⚔️👑
-
-━━━━━━━━━━━━━━━━━━━
-🩸 𝙀𝙈𝙋𝙄𝙍𝙀  𝙎𝙏𝘼𝙏𝙎
-━━━━━━━━━━━━━━━━━━━
-
-👥 USERS        ➤ <code>{}</code>  
-🏴 GROUPS       ➤ <code>{}</code>  
-💎 PREMIUM      ➤ <code>{}</code>  
-🎬 FILES        ➤ <code>{}</code>  
-
-━━━━━━━━━━━━━━━━━━━
-🕶 𝘿𝙊𝙉  𝘾𝙊𝙉𝙏𝙍𝙊𝙇
-━━━━━━━━━━━━━━━━━━━
-
-⏳ UPTIME       ➤ {}  
-🧠 RAM USAGE    ➤ <code>{}%</code>  
-⚙️ CPU POWER    ➤ <code>{}%</code>  
-
-━━━━━━━━━━━━━━━━━━━
-♛ STATUS        ➤ UNSTOPPABLE  
-♛ SPEED         ➤ KING LEVEL  
-♛ SECURITY      ➤ BULLETPROOF  
-
-— 🩸 𝘾𝙄𝙉𝙀𝙈𝘼  𝙃𝙐𝘽  🩸
-</b>"""
+    STATUS_TXT = """<b>╭─[ ⚡ ᴅᴀᴛᴀʙᴀsᴇ ꜱᴛᴀᴛᴜꜱ ⚡ ]─⍟</b>
+│
+<b>├─[ ᴅᴀᴛᴀʙᴀsᴇ ]─⍟</b>
+├⋟ 👤 ᴜsᴇʀs ⋟ <code>{}</code>
+├⋟ 👥 ɢʀᴏᴜᴘs ⋟ <code>{}</code>
+├⋟ 💎 ᴘʀᴇᴍɪᴜᴍ ⋟ <code>{}</code>
+├⋟ 📂 ꜰɪʟᴇs ⋟ <code>{}</code>
+├⋟ 💾 ᴜsᴇᴅ ⋟ <code>{}</code>
+├⋟ 🆓 ꜰʀᴇᴇ ⋟ <code>{}</code>
+│
+<b>├─[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs ]─⍟</b>
+├⋟ ⏳ ᴜᴘᴛɪᴍᴇ ⋟ {}
+├⋟ ⚡ ʀᴀᴍ ⋟ <code>{}%</code>
+├⋟ 🔋 ᴄᴘᴜ ⋟ <code>{}%</code>
+<b>╰──────────────────────⍟</b>"""
 
     EARN_INFO = """<b>💰 <u>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴛʜɪꜱ ʙᴏᴛ</u> 💰
 
@@ -227,7 +215,7 @@ class script(object):
 
 ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
 
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @Cinema_Hub_owner
+ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @SilentXBotz
 
 ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
 """
@@ -271,8 +259,15 @@ class script(object):
 
 ᴍᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{file_name}\n
-📤 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ: <a href="https://t.me/Cinema_Um">Cɪɴᴇᴍᴀ Hᴜʙ</a>
+    CAPTION = """<b>
+🎬 {file_name}
+
+━━━━━━━━━━━━━━━━━━━
+👑 CINEMA HUB 👑
+━━━━━━━━━━━━━━━━━━━
+⚡ No Ads • No Noise
+🎥 Pure Cinema Experience
+</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🎬 ᴛɪᴛʟᴇ: <a href={url}>{title}</a>
