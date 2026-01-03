@@ -23,22 +23,23 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 DEFAULT_IMAGE_URL = "https://te.legra.ph/file/88d845b4f8a024a71465d.jpg"
 
 SILENTX_PREMIUM_UPDATE = """
-<blockquote>🎬 𝕻ℝ𝔼𝕄𝕀𝕌𝕄 𝕄𝕆𝕍𝕀𝔼 𝕌ℙ𝔻𝔸𝕋𝔼 🎥</blockquote>
+<blockquote>🎬👑 ミ★ 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗠𝗢𝗩𝗜𝗘 𝗗𝗥𝗢𝗣 ★彡 👑🎬</blockquote>
 
-<b><u>{}</u></b> <code>#{}</code>
+<b><u>{}</u></b>  <code>#{} </code>
 
-<code>━━━━━━━━━━━━━━━━━━</code>
-<b>🔈 Audio</b>: {}
-<b>📺 Format</b>: {}
+<code>━━━━━━━━━━━━━━━━━━━━</code>
+<b>🎧 Audio</b>      : <code>{}</code>
+<b>📀 Format</b>     : <code>{}</code>
+<code>━━━━━━━━━━━━━━━━━━━━</code>
 
-<code>━━━━━━━━━━━━━━━━━━</code>
-<b>🎭 Director</b>: {}
-<b>📅 Release</b>: {}
-<b>⭐ IMDb</b>: {}/10 (<code>{}</code> votes)
-<b>🏷️ Genres</b>: {}
-<code>━━━━━━━━━━━━━━━━━━</code>
+<b>🎬 Director</b>   : <code>{}</code>
+<b>📅 Release</b>    : <code>{}</code>
+<b>⭐ IMDb</b>       : <code>{}/10</code>  (<code>{}</code> votes)
+<b>🎭 Genres</b>    : <code>{}</code>
+<code>━━━━━━━━━━━━━━━━━━━━</code>
 
-<b>⚡ Powered By @SilentXBotz</b>
+<b>👑 𝗖𝗜𝗡𝗘𝗠𝗔 𝗛𝗨𝗕 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 👑</b>
+<b>⚡ Powered By :</b> <a href="https://t.me/Cinema_Um">𝗖𝗶𝗻𝗲𝗺𝗮 𝗛𝘂𝗯</a>
 """
 
 notified_movies = set()
