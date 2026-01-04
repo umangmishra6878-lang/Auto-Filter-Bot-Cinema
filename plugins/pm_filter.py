@@ -1,3 +1,4 @@
+import os
 import asyncio
 import re
 import ast
@@ -670,8 +671,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 file_id=file_id,
             )
             fileName = {quote_plus(get_name(silent_msg))}
-            silent_stream = f"{URL}watch/{str(silent_msg.id)}/{quote_plus(get_name(silent_msg))}?hash={get_hash(silent_msg)}"
-            silent_download = f"{URL}{str(silent_msg.id)}/{quote_plus(get_name(silent_msg))}?hash={get_hash(silent_msg)}"
+STREAM_BASE_URL = os.environ.get("STREAM_BASE_URL")
+            silent_stream = f"{STREAM_BASE_URL}/watch/{str(silent_msg.id)}/{quote_plus(get_name(silent_msg))}?hash={get_hash(silent_msg)}"
+silent_download = f"{STREAM_BASE_URL}/{str(silent_msg.id)}/{quote_plus(get_name(silent_msg))}?hash={get_hash(silent_msg)}"
             btn= [[
                 InlineKeyboardButton("𝖲𝗍𝗋𝖾𝖺𝗆", url=silent_stream),
                 InlineKeyboardButton("𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽", url=silent_download)        
